@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "name": "Paul McBeth",
+      "image": "https://bloximages.chicago2.vip.townnews.com/nwitimes.com/content/tncms/assets/v3/editorial/1/4b/14b7d3ee-3f4d-5964-9229-16efa7a4f26a/5206f2c7abbb5.image.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "name": "Ricky Wysocki",
+      "image": "https://www.pdga.com/files/styles/homepage_carousel/public/2017-hofc-ricky-wysocki-final-round-recap-cover.png?itok=VP4ECuuc",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "name": "Paul Ulibarri",
+      "image": "https://cdn.discgolf.ultiworld.com/wp-content/uploads/2017/06/34664626360_2ab3aad200_k-1024x683.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "Nate Sexton",
+      "image": "https://www.innovadiscs.com/wp-content/uploads/2017/07/nate-forehand.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "Eagle McMahon",
+      "image": "https://cdn.discgolf.ultiworld.com/wp-content/uploads/2016/10/USDGC-Eagle-Round-1.jpg",
+      "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Paige Pierce",
+        "image": "http://frisbee.net/images/20131012213336_fn1598.jpg",
+        "clicked": false
+      },
+      {
+        "id": 7,
+        "name": "Sarah Hokom",
+        "image": "https://cdn.discgolf.ultiworld.com/wp-content/uploads/2018/05/40396502950_4b3d7cad62_k.jpg",
+        "clicked": false
+      },
+      {
+        "id": 8,
+        "name": "Eveliina Salonen",
+        "image": "https://cdn.discgolf.ultiworld.com/wp-content/uploads/2018/08/39572463_280033939390704_4047509229072809984_n.png",
+        "clicked": false
+      },
+      {
+        "id": 9,
+        "name": "Catrina Allen",
+        "image": "https://i.pinimg.com/originals/09/c3/e6/09c3e669ad154c5599ba34bdd442d7f9.jpg",
+        "clicked": false
+      },
+      {
+        "id": 10,
+        "name": "Jessica Weese",
+        "image": "https://cdn.discgolf.ultiworld.com/wp-content/uploads/2017/08/36190829702_f4e5879b45_k-1024x683.jpg",
+        "clicked": false
+      },
+      {
+        "id": 11,
+        "name": "Zoe Andyke",
+        "image": "https://cdn.discgolf.ultiworld.com/wp-content/uploads/2017/08/36553639100_137c2fa1f7_k-1024x683.jpg",
+        "clicked": false
+      },
+      {
+        "id": 12,
+        "name": "Dustin Keegan",
+        "image":"https://www.dynamicdiscs.com/v/images/team/dustin-keegan.jpg",
+        "clicked": false
+      },
+      {
+        "id": 13,
+        "name": "Gregg Barsby",
+        "image": "http://www.innovadiscs.com/wp-content/uploads/2015/05/barsby-featured-2.jpg",
+        "clicked": false
+      },
+      {
+        "id": 14,
+        "name": "Nate Doss",
+        "image": "https://cdn.discgolf.ultiworld.com/wp-content/uploads/2017/09/37250722945_ae2376b150_k-1024x683.jpg",
+        "clicked": false
+      },
+      {
+        "id": 15,
+        "name": "Brandyn Armentrout",
+        "image": "https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/166941_208563659229795_453454133_n.jpg?_nc_cat=111&_nc_ht=scontent.fapa1-1.fna&oh=fbc1a59138a15a9c055d48216c384786&oe=5D048653",
+        "clicked": false
+      }
+  ]
