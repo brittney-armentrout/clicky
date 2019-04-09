@@ -2,11 +2,11 @@ import "./App.css";
 
 import React, { Component } from "react";
 
-import Card from "./components/Card";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+// import Card from "./components/Card";
+// import Footer from "./components/Footer";
+// import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import cards from "./cards.json";
+// import cards from "./cards.json";
 
 
 class App extends Component {
@@ -14,24 +14,16 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <p>
             Testing <code>src/App.js</code> and save to reload.
           </p>
           <Navbar
           className="row"
-          score={score}
-          topScore={topScore}
-          message={message}
+          // score={score}
+          // topScore={topScore}
+          // message={message}
         />
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
         </header>
       </div>
     );
