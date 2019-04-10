@@ -56,13 +56,6 @@ nav {
   serif;
   font-size: em;
   color: #fff;
-  text-shadow: 0 0 5px #fff,
-  0 0 10px rgb(255, 204, 204),
-  0 0 20px #870000b5,
-    0 0 30px #870000b5,
-    0 0 40px #870000b5,
-    0 0 55px #870000b5,
-    0 0 75px #870000b5;
   text-align: center;
 }
 
@@ -105,19 +98,9 @@ nav {
   font-size: calc(10px + 14 * (100vw - 320px) / 800);
 }
 
-/* .lodge {
-  background: #590000;
-  background: -webkit-linear-gradient(to right, #000000, #eb5757);
-  background: linear-gradient(to right, #000000, #eb5757);
-} */
-
 .main-content {
   max-width: 70vw;
 }
-
-/* .red {
-  color: red;
-} */
 
 .nav-font {
   font-size: 2vw;
