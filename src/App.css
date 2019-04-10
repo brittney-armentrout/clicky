@@ -1,8 +1,26 @@
-nav {
-  border-bottom: 3px solid green;
-  padding: 20px;
-  margin-bottom: 40px;
+.jumbotron {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(treebg.jpeg);
+  
 }
+
+#logo {
+  padding: 20px;
+  opacity: .8;
+}
+
+nav {
+  border-bottom: 3px solid #50c473;
+  padding: 15px;
+  margin-bottom: 40px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.bg-nav {
+  background: #f8f6ad;
+}
+
 .App {
   text-align: center;
 }
@@ -51,17 +69,7 @@ nav {
     1px 1px 0 #634643, 4px 3px 0.5px #000;
 }
 
-.neon {
-  font-family: 'Lora',
-  serif;
-  font-size: em;
-  color: #fff;
-  text-align: center;
-}
 
-.bg-nav {
-  background: #fffc8f;
-}
 
 .footer-100 {
   bottom: 0;

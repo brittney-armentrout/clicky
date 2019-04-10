@@ -96,11 +96,11 @@ class App extends Component {
   render() {
     const { message, score, cards, topScore } = this.state;
     return (
-      <div className="container-fluid mainContainer">
+      <div className="fluid-container img-fluid">
       <Jumbotron />
     
 
-      <div className="fluid-container lodge h-100vh">
+      <div className="fluid-container">
         <Navbar
           className="row"
           score={score}

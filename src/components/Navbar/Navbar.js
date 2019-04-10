@@ -1,8 +1,11 @@
 import React from "react";
 
+
 function Navbar({ message, score, topScore }) {
   return (
-    <nav className="bg-nav fixed-top navbar">
+      
+    <nav className="bg-nav  navbar">
+
         <div class="navbar-fixed">
     
             <nav>
@@ -17,9 +20,9 @@ function Navbar({ message, score, topScore }) {
         </div>
 
         <div className="col list-inline-item my-auto nav-calc-font m-0 p-0 score-li-width text-center">
-            SCORE: {score} | HIGH SCORE: {topScore}
+            SCORE: {score} |  HIGH SCORE: {topScore}
         </div>
-        
+
     </nav>
   );
 }
