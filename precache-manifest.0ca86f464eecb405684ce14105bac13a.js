@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "d6612ed8fc3ca00f599b0f89d4eda00b",
+    "url": "/clicky/static/media/treebg.d6612ed8.jpeg"
+  },
+  {
     "revision": "5a91baa21d0391365530f16f4b14ecef",
     "url": "/clicky/static/media/logo.5a91baa2.png"
   },
@@ -8,19 +12,19 @@ self.__precacheManifest = [
     "url": "/clicky/static/js/runtime~main.c6956f21.js"
   },
   {
-    "revision": "7ae100b7020a40e94f9d",
-    "url": "/clicky/static/js/main.6478c57e.chunk.js"
+    "revision": "ea905ff0a5deea227e09",
+    "url": "/clicky/static/js/main.8bd4ff76.chunk.js"
   },
   {
     "revision": "61433e735fbb2d010e13",
     "url": "/clicky/static/js/2.b7f52e28.chunk.js"
   },
   {
-    "revision": "7ae100b7020a40e94f9d",
-    "url": "/clicky/static/css/main.c2ad1903.chunk.css"
+    "revision": "ea905ff0a5deea227e09",
+    "url": "/clicky/static/css/main.e279a55e.chunk.css"
   },
   {
-    "revision": "86fc29d79008562d3ccfe6a8e647f937",
+    "revision": "5b174c683ab1aa320edf536f53d430e2",
     "url": "/clicky/index.html"
   }
 ];
