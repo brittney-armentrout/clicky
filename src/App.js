@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
 import Card from "./components/Card";
+import Jumbotron from "./components/Jumbotron";
 // import Footer from "./components/Footer";
-// import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import cards from "./cards.json";
 
@@ -17,7 +17,7 @@ class App extends Component {
       score: 0,
       maxScore: 24,
       topScore: 0,
-      message: "CLICK AN IMAGE TO BEGIN"
+      message: "CLICK A DISC GOLFER TO BEGIN"
     };
   }
 
@@ -92,10 +92,14 @@ class App extends Component {
     this.setState({ score: 0 });
   };
 
-  // Render the App component on the page
+  //Render the App component on the page
   render() {
     const { message, score, cards, topScore } = this.state;
     return (
+      <div className="container-fluid mainContainer">
+      <Jumbotron />
+    
+
       <div className="fluid-container lodge h-100vh">
         <Navbar
           className="row"
@@ -118,6 +122,7 @@ class App extends Component {
         </div>
 
         {/* <Footer className="footer-mgn row" /> */}
+      </div>
       </div>
     );
   }
