@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-import Card from "./components/Card";
 import Jumbotron from "./components/Jumbotron";
-// import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
 import cards from "./cards.json";
 
 import "./App.css";
@@ -15,13 +15,14 @@ class App extends Component {
       isGuessCorrect: true,
       cards: cards,
       score: 0,
-      maxScore: 24,
+      maxScore: 15,
       topScore: 0,
       message: "CLICK A DISC GOLFER TO BEGIN"
     };
   }
 
   //Functions for game logic
+
   //Main click handler function
   handleSaveClick = id => {
     // Variable to hold the cards state.
@@ -36,8 +37,8 @@ class App extends Component {
       // ...call this function to register the correct guess
       this.handleCorrectClick();
 
-      // ... randomize character cards
-      this.randomizeCharacters(cardz);
+      // ... randomize image cards
+      this.randomizeImages(cardz);
 
       this.setState({ cardz });
     } else {
@@ -45,9 +46,9 @@ class App extends Component {
     }
   };
 
-  //Function to randomize the characters
-  randomizeCharacters = characters => {
-    characters.sort((a, b) => {
+  //Function to randomize the images
+  randomizeImages = images => {
+    images.sort((a, b) => {
       return 0.5 - Math.random();
     });
   };
@@ -79,7 +80,6 @@ class App extends Component {
       message: "INCORRECT. CLICK TO PLAY AGAIN!",
       isGuessCorrect: false
     });
-    // this.toggleIncorrectAnimation();
     this.resetGame();
   };
 
@@ -92,14 +92,13 @@ class App extends Component {
     this.setState({ score: 0 });
   };
 
-  //Render the App component on the page
+  //Render the App components on the page
   render() {
     const { message, score, cards, topScore } = this.state;
     return (
       <div className="fluid-container img-fluid">
       <Jumbotron />
     
-
       <div className="fluid-container">
         <Navbar
           className="row"
@@ -120,8 +119,11 @@ class App extends Component {
             />
           ))}
         </div>
-
-        {/* <Footer className="footer-mgn row" /> */}
+        
+        <div className="fluid-container">
+          <Footer />
+        </div>
+      
       </div>
       </div>
     );

@@ -3,7 +3,7 @@ import React from "react";
 
 function Card({ clickHandler, id, image, name }) {
   return (
-    <div className="card-holder col-md-3">
+    <div className="card-holder">
       <img
         src={image}
         alt={name}

@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   background-image: url(treebg.jpeg);
-  
 }
 
 #logo {
@@ -21,65 +20,9 @@ nav {
   background: #f8f6ad;
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-.bg-header {
-  background-color: #000;
-}
-
 .card-holder img {
   height: 250px;
   width: 250px;
-}
-
-.colors {
-  background-color: #040303;
-  color: #bbbbbb;
-  text-shadow: 5px 5px 5px #000;
-}
-
-.colors a {
-  color: #bbbbbb;
-}
-
-.tp-text a:hover {
-  color: #58f85c;
-  text-shadow: -1px -1px 0 #634643, 1px -1px 0 #634643, -1px 1px 0 #634643,
-    1px 1px 0 #634643, 4px 3px 0.5px #000;
-}
-
-
-
-.footer-100 {
-  bottom: 0;
-  height: 8vh;
-  left: 0;
-  width: 100%;
-}
-
-.footer-mgn {
-  top: 5vh;
 }
 
 .grow {
@@ -90,40 +33,12 @@ nav {
   transform: scale(1.05);
 }
 
-.header-font {
-  font-size: 4vw;
-}
-
-.head-mar-top {
-  margin-top: 0vh;
-}
-
-.header-pad {
-  padding: 15vh 0 10vh 0;
-}
-
-.icon-font {
-  font-size: calc(10px + 14 * (100vw - 320px) / 800);
-}
-
 .main-content {
   max-width: 70vw;
 }
 
-.nav-font {
-  font-size: 2vw;
-}
-
-.nav-font a {
-  font-size: 2vw;
-}
-
 .nav-calc-font {
   font-size: calc(10px + 14 * (100vw - 320px) / 800);
-}
-
-.nav-shadow {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .nav-width {
@@ -134,10 +49,6 @@ nav {
   min-height: 10vh;
 }
 
-.nav-li-width {
-  min-width: 33vw;
-}
-
 .padding-main {
   padding-bottom: 5vh;
 }
@@ -146,22 +57,14 @@ nav {
   cursor: pointer;
 }
 
-.title-line-hgt {
-  line-height: 2rem;
-}
-
 .card-select:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-.h-100vh {
-  min-height: 100vh;
 }
 
 .copyright {
   text-align: center;
   min-width: 100vw;
-
+  background: #f8f6ad;
 }
 
 /* Media */
@@ -175,27 +78,6 @@ nav {
     font-size: 0.75rem;
   }
 
-  .title-line-hgt {
-    line-height: 1.5rem;
-  }
-
-  .header-font {
-    font-size: 6vw;
-  }
-
-  .header-pad {
-    padding: 15vh 0 5vh 0;
-  }
-
-  .tp-text {
-    color: #58f85c;
-    text-shadow: none;
-  }
-
-  .tp-text a {
-    color: #58f85c;
-    text-shadow: none;
-  }
 }
 
 @media screen and (max-width: 450px) {
@@ -207,11 +89,4 @@ nav {
     font-size: 0.5rem;
   }
 
-  .navbar li {
-    width: 40%;
-  }
-
-  .title-line-hgt {
-    line-height: 1rem;
-  }
 }
